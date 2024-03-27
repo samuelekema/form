@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <div class="card">
+        <div class="card-wrapper">
+            <div class="card-title">
+                <h1>Login Successfull</h1>
+            </div>
+            <div class="lottie">
+                <dotlottie-player src="https://lottie.host/caefd5a8-1aa5-4217-9c86-9c1afd108b68/R0ppKPs8ui.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></dotlottie-player>
+            </div>
+            <div class="back-btn">
+                <a href="/">
+                    <button>Go back</button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <style>
+
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .card{
+            max-width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: antiquewhite;
+        }
+
+        .card-wrapper{
+            width: 100%;
+        }
+
+        .card-title{
+            display: flex;
+            justify-content: center;
+        }
+
+        .lottie{
+            display: flex;
+            justify-content: center;
+        }
+
+        .back-btn{
+            display: flex;
+            justify-content: center;
+            position: relative;
+            top: 15px;
+        }
+
+        button{
+            width: 150px;
+            height: 40px;
+            background-color: white;
+            cursor: pointer;
+            transition: all .50s;
+            border: solid 1px pink;
+        }
+
+        button:hover{
+            background-color: rgb(245, 108, 131);
+            color: white;
+        }
+
+    </style>
+    
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+</body>
+</html>
