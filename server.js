@@ -21,7 +21,7 @@ app.post('/submit-form', (req, res) => {
         res.status(400).send('<h1>Username and Password are required</h1>');
     } else {
         // If username and password are valid
-        res.redirect('/check'); // Redirect to success page
+        res.redirect(`/check?username=${encodeURIComponent(username)}`);
     }
 });
 
